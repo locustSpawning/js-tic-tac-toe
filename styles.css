@@ -2,6 +2,13 @@
     font-family: sans-serif;
 }
 
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background-color: white;
     display: flex;
@@ -82,6 +89,15 @@ h4 {
     font-size: 25px;
 }
 
+h5{
+    font-size: 15px;
+}
+
+#p1, #p2 {
+    display: flex;
+    align-items: center;
+}
+
 #rules{
     display: flex;
     flex-direction: column;
@@ -98,12 +114,13 @@ h4 {
 }
 
 
-#submit-button  {
+#submit-button, #play-button  {
     min-width: 269px;
     background-color: lightblue;
+    border-radius: 2px;
 }
 
-#submit-button:hover{
+#submit-button:hover, #play-button:hover{
     background-color: #60afcc;
 }
 
