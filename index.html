@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="https://em-content.zobj.net/thumbs/120/google/350/multiply_2716-fe0f.png">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div id="header">
+        <h1> Tic Tac Toe</h1>
+    </div>
+    <div class="popup" id="popup">
+        <form id="rules">
+            <h4>Choose Your Piece</h4>
+            <div id="player1">
+                <h5>Player 1</h5>
+                <input type="checkbox" id="player1-X">
+                <label for="player1-X">✖️</label>
+                <input type="checkbox" id="player1-O">
+                <label for="player1-X">⭕</label>
+            </div>
+           <div id="player2">
+                <h5>Player 2</h5>
+                <input type="checkbox" id="player1-X">
+                <label for="player2-X">✖️</label>
+                <input type="checkbox" id="player1-O">
+                <label for="player2-X">⭕</label>
+           </div>
+            <button onclick="closePopUp()" type="submit" id="submit-button">Begin!</button>
+        </form>
+    </div>
+    <div id="board">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+</body>
+</html>
